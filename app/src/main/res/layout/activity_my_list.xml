@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.capstone.musicweb.MyListActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/myList"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:layout_marginLeft="5sp"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:id="@+id/textNoneSaved"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_margin="5dp"
+        android:textSize="18sp"
+        android:text="@string/textNoneSaved"
+        tools:text="You have no tracks saved to your list!" />
+
+    <ListView
+        android:id="@+id/listMy"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5sp"
+        android:layout_below="@+id/textView"/>
+</RelativeLayout>

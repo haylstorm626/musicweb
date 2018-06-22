@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Music Web</string>
+    <string name="btnMyList">My List</string>
+    <string name="btnSearch">Search</string>
+    <string name="memes">Memes!</string>
+    <string name="btnEnter">Enter</string>
+    <string name="textArtistName">textArtistName</string>
+    <string name="searchRes">Your search results:</string>
+    <string name="topTextView">Top Five Songs:</string>
+    <string name="albTextView">Albums:</string>
+    <string name="myList">Saved Tracks</string>
+    <string name="textAlbumName">textAlbumName</string>
+    <string name="textNoSaved" />
+    <string name="textNoneSaved">You have no tracks saved to your list!</string>
+    <string name="buttToWeb">Related Artists</string>
+    <string name="viewRelated">View related artists</string>
+    <string name="topThreeTracks">Top Three Songs:</string>
+</resources>
